@@ -6,10 +6,10 @@ int main()
     char op;
     float num1, num2;
 
-    cout << "Pick either +, -, * or /: ";
+    cout << "Pick either +, -, * or /: \n";
     cin >> op;
 
-    cout << "Enter two integers: ";
+    cout << "Enter two integers: \n";
     cin >> num1 >> num2;
 
     switch(op)
