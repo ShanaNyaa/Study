@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  char c;
+  int LowerCaseVowel, UpperCaseVowel;
+
+  cout << "Enter an alphabet: \n";
+  cin >> c;
+
+  LowerCaseVowel = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
+  UpperCaseVowel = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
+
+  if (LowerCaseVowel || UpperCaseVowel)
+  {
+    cout << " You have entered a vowel. ";
+  }
+
+  else
+  {
+    cout << " You have entered a consonant. ";
+  }
+
+  return 0;
+
+}
