@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  int num1, num2, number;
+  float num1, num2, number;
   cout << "Enter two integers to be added: \n";
   cin >> num1 >> num2;
 
@@ -16,8 +16,15 @@ int main()
     cout << "This number is bigger than 10. ";
   }
 
-  else
+  else if (number < 10)
+  {
   cout << "This number is not bigger than 10. ";
+  }
+  
+  else
+  {
+  cout << "This number is 10. ";
+  }
 
   return 0;
 }
