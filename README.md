@@ -1,0 +1,6 @@
+# Study
+Just For Me To Revise
+
+Most of the stuff that I posted are just for me to look up when I need it to revise...
+
+Thanks to www.programiz.com for the guides and most of the stuff I posted are referred from them...
