@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int number, x = 0;
+
+  while (x < 5)
+  {
+    cout << "Enter a number: ";
+    cin >> number;
+
+    if (number >= 0)
+      {
+        cout << "This number is positive. " << endl;
+      }
+
+    else
+      {
+        cout << "This number is negative. " << endl;
+      }
+
+    x = x + 1;
+  }
+
+  return 0;
+}
