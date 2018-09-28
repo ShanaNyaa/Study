@@ -20,7 +20,7 @@ int main()
         cout << "This number is negative. " << endl;
       }
 
-    x = x + 1;
+    x += 1; //x = x + 1
   }
 
   return 0;
