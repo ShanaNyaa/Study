@@ -6,3 +6,7 @@ Most of the stuff that I posted are just for me to look up when I need it to rev
 Thanks to them for the guides and most of the stuff I posted are referred from them:
 
 www.programiz.com and www.cplusplus.com 
+
+I use this site to compile codes online
+
+https://repl.it
