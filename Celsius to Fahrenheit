@@ -1,3 +1,5 @@
+//Celsius to Fahrenheit by reading the inputs from a text file and output the answer to another text file
+
 #include <iostream>
 #include <fstream>
 using namespace std;
