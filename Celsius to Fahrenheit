@@ -8,23 +8,23 @@ int main()
 {
   float celsius, fahrenheit;
 
-  ifstream myfile;
+  ifstream inputFile;
   {
-    myfile.open("Input.txt");
-    myfile >> celsius;
+    inputFile.open("Input.txt");
+    inputFile >> celsius;
   }
 
   fahrenheit = (celsius * 9 / 5) + 32;
 
-  ofstream yourfile;
+  ofstream outputFile;
   {
-    yourfile.open("Output.txt");
-    yourfile << celsius << "C = ";
-    yourfile << fahrenheit << "F";
+    outputFile.open("Output.txt");
+    outputFile << celsius << " Celsius = ";
+    outputFile << fahrenheit << " Fahrenheit";
   }
 
-  myfile.close();
-  yourfile.close();
+  inputFile.close();
+  outputFile.close();
 
   return 0;
 }
