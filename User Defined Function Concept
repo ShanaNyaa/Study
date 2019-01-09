@@ -1,0 +1,69 @@
+#include <iostream>
+using namespace std;
+int add(int, int);
+int subtract(int, int);
+int multiply(int, int);
+int divide(int, int);
+
+int main()
+{
+  int num1, num2, total_addition, total_subtraction, total_multiplication, total_division;
+
+  cout << "Enter the first and second number to be added: \n";
+  cin >> num1 >> num2;
+
+  total_addition = add(num1, num2);
+  cout << "Total of Addition = " << total_addition << endl << endl;
+
+  cout << "Enter the first and second number to be subtracted: \n";
+  cin >> num1 >> num2;
+
+  total_subtraction = subtract(num1, num2);
+  cout << "Total of Subtraction = " << total_subtraction << endl << endl;
+
+  cout << "Enter the first and second number to be multiplied: \n";
+  cin >> num1 >> num2;
+
+  total_multiplication = multiply(num1, num2);
+  cout << "Total of Multiplication = " << total_multiplication << endl << endl;
+
+  cout << "Enter the first and second number to be divided: \n";
+  cin >> num1 >> num2;
+
+  total_division = divide(num1, num2);
+  cout << "Total of Division = " << total_division << endl << endl;
+
+  return 0;
+}
+
+int add(int num1, int num2)
+{
+  int add;
+  add = num1 + num2;
+
+  return add;
+}
+
+int subtract(int num1, int num2)
+{
+  int subtract;
+  subtract = num1 - num2;
+
+  return subtract;
+}
+
+int multiply(int num1, int num2)
+{
+  int multiply;
+  multiply = num1 * num2;
+
+  return multiply;
+}
+
+int divide(int num1, int num2)
+{
+  int divide;
+  divide = num1 / num2;
+
+  return divide;
+}
