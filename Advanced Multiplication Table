@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int nColumn;
+  cout << "     Multiplication Table     " << endl;
+  cout << "------------------------------" << endl;
+
+  int nRow = 1;
+  while (nRow <= 9)
+  {
+    cout << nRow << " |";
+    nColumn = 1;
+
+    while (nColumn <= 9)
+    {
+      cout.width(2);
+      cout << nRow * nColumn << " ";
+      nColumn++;
+    }
+
+    nRow++;
+    cout << endl;
+  }
+
+  return 0;
+}
