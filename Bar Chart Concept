@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int sales1, sales2, sales3, sales4, sales5, calculation1, calculation2, calculation3, calculation4, calculation5, counter;
+
+  cout << "Enter today's sales for store 1: ";
+  cin >> sales1;
+
+  cout << "Enter today's sales for store 2: ";
+  cin >> sales2;
+
+  cout << "Enter today's sales for store 3: ";
+  cin >> sales3;
+
+  cout << "Enter today's sales for store 4: ";
+  cin >> sales4;
+
+  cout << "Enter today's sales for store 5: ";
+  cin >> sales5;
+  cout << endl;
+
+  calculation1 = sales1 / 100;
+  calculation2 = sales2 / 100;
+  calculation3 = sales3 / 100;
+  calculation4 = sales4 / 100;
+  calculation5 = sales5 / 100;
+
+  cout << "SALES BAR CHART" << endl;
+  cout << "(Each * = $100) Store" << endl;
+
+  cout << "Store 1: ";
+  for (counter = 1; counter <= calculation1; counter++)
+  {
+    cout << "*";
+  }
+
+  cout << endl << "Store 2: ";
+  for (counter = 1; counter <= calculation2; counter++)
+  {
+    cout << "*";
+  }
+
+  cout << endl << "Store 3: ";
+  for (counter = 1; counter <= calculation3; counter++)
+  {
+    cout << "*";
+  }
+
+  cout << endl << "Store 4: ";
+  for (counter = 1; counter <= calculation4; counter++)
+  {
+    cout << "*";
+  }
+
+  cout << endl << "Store 5: ";
+  for (counter = 1; counter <= calculation5; counter++)
+  {
+    cout << "*";
+  }
+
+  return 0;
+}
